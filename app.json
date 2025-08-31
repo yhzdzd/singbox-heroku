@@ -1,0 +1,10 @@
+{
+  "name": "Sing-box Proxy",
+  "description": "Sing-box proxy on Heroku",
+  "repository": "https://github.com/your-username/singbox-heroku",
+  "stack": "heroku-22",
+  "env": {
+    "PORT": {"value": "443"},
+    "PASSWORD": {"description": "节点密码", "required": true, "generator": "secret"}
+  }
+}
