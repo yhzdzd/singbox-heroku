@@ -1,0 +1,16 @@
+log:
+  level: info
+  output: stdout
+
+inbounds:
+  - type: vless
+    listen: 0.0.0.0
+    port: ${PORT}
+    tls:
+      enabled: false
+    users:
+      - name: "user"
+        password: "${PASSWORD}"
+
+outbounds:
+  - type: direct
