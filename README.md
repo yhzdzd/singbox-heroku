@@ -2,7 +2,7 @@
 
 点击下面按钮一键部署到 Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/your-username/singbox-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yhzdzd/singbox-heroku)
 
 ---
 
